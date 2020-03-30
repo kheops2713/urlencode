@@ -10,6 +10,5 @@ Limitations/bugs:
 
 - an encoded URL containing `%00` will be truncated when decoded because it
   translates as a null character;
-- it does not process strings longer than 4095 bytes.
-
-
+- it does not process strings longer than 4095 bytes;
+- errors are not handled.
